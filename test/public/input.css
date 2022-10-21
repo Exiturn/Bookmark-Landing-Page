@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.btn-purple {
+    @apply mt-5 px-5 py-4 sm:py-3 bg-softBlue text-white tracking-wider rounded-md text-xs drop-shadow-xl hover:bg-white hover:text-softBlue hover:outline transition font-semibold
+}
+
+.btn-gray {
+    @apply mt-5 px-5 py-4 sm:py-3 bg-gray-300 text-veryDarkBlue tracking-wider rounded-md text-xs drop-shadow-xl hover:bg-white hover:text-veryDarkBlue hover:outline transition font-semibold
+}
+
+.btn-login {
+    @apply px-9 py-3 bg-softRed text-white tracking-widest uppercase rounded-md drop-shadow-xl hover:bg-white hover:text-softRed hover:outline transition
+}
+
+.btn-card {
+    @apply mt-5 px-7 py-4 sm:py-4 bg-softBlue text-white tracking-wider rounded-md text-xs drop-shadow-xl hover:bg-white hover:text-softBlue hover:outline transition font-semibold
+}
+
+.navbar-items {
+    @apply px-5 hover:text-softRed transition
+}
+
+.rounded-rectangle-1 {
+    @apply block overflow-hidden bg-softBlue rounded-l-full absolute sm:h-80 sm:w-3/4 lg:w-1/2 lg:top-28 lg:-right-16 md:top-32 md:-right-4 top-16 -right-4 h-40 w-3/4
+}
+
+.rounded-rectangle-2 {
+    @apply block overflow-hidden bg-softBlue rounded-r-full absolute sm:h-72 sm:w-3/4 lg:w-2/5 lg:top-28 lg:-right-16 md:top-32 md:-right-4 top-16 -left-4 h-40 w-3/4
+}
+
+.tab-option {
+    @apply inline-block p-4 text-base font-semibold rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 transition
+}
+
+.tab-option-active {
+    @apply inline-block p-4 text-base font-semibold text-veryDarkBlue rounded-t-lg border-b-2 border-softRed transition
+}
+
+.heading-2 {
+   @apply text-veryDarkBlue text-2xl sm:text-3xl text-center font-bold drop-shadow-xl tracking-tight
+}
+
+.card-heading {
+    @apply text-veryDarkBlue text-3xl sm:text-xl text-center font-bold drop-shadow-xl tracking-wide
+}
+
+.left-paragraph {
+    @apply mt-5 text-grayishBlue font-medium sm:tracking-wide tracking-wider text-center sm:text-left
+}
+
+.center-paragraph {
+    @apply mt-5 text-grayishBlue font-medium sm:tracking-wide tracking-wider text-center
+}
+
+.card-paragraph {
+    @apply mt-1 text-grayishBlue font-medium sm:tracking-wide tracking-wider text-center text-sm
+}
+
+.card {
+    @apply flex flex-col rounded-lg drop-shadow-xl bg-white border-0
+}
