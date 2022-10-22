@@ -620,6 +620,14 @@ video {
   margin-top: 3.5rem;
 }
 
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -642,10 +650,6 @@ video {
 
 .max-w-md {
   max-width: 28rem;
-}
-
-.max-w-screen-lg {
-  max-width: 1024px;
 }
 
 .flex-1 {
@@ -707,6 +711,10 @@ video {
 .gap-x-24 {
   -moz-column-gap: 6rem;
        column-gap: 6rem;
+}
+
+.place-self-center {
+  place-self: center;
 }
 
 .overflow-x-hidden {
@@ -1261,6 +1269,10 @@ video {
 
   .sm\:w-3\/4 {
     width: 75%;
+  }
+
+  .sm\:w-full {
+    width: 100%;
   }
 
   .sm\:flex-row {
