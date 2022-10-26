@@ -1126,10 +1126,8 @@ video {
 }
 
 .tab-option:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+  color: rgb(250 87 87 / var(--tw-text-opacity));
 }
 
 .tab-faq {
@@ -1151,7 +1149,7 @@ video {
 
 .tab-faq:hover {
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+  color: rgb(250 87 87 / var(--tw-text-opacity));
 }
 
 .tab-option-active {
