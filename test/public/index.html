@@ -89,7 +89,8 @@
             </p>
         </div>
         <!-- Features Tab -->
-        <div class="flex justify-center mt-10 text-sm font-medium text-center text-gray-500 border-gray-200 dark:text-gray-400">
+        <div
+            class="flex justify-center mt-10 text-sm font-medium text-center text-gray-500 border-gray-200 dark:text-gray-400">
             <ul class="flex flex-col sm:flex-row -mb-px border-b">
                 <li class="mr-2">
                     <a href="#" class="tab-option-active" aria-current="page">
@@ -199,10 +200,10 @@
                     <div class="flex justify-center z-10">
                         <img src="/images/logo-firefox.svg" alt="">
                     </div>
-                    <h1 class="card-heading mt-5">
+                    <h1 class="card-heading mt-5 mb-2">
                         Add to Firefox
                     </h1>
-                    <p class="card-paragraph my-5">
+                    <p class="card-paragraph my-5 mb-2">
                         Minimum version 55
                     </p>
                     <div class="flex justify-center items-center mt-14 border-t-2 border-dashed">
@@ -218,9 +219,48 @@
     <!-- FAQ Section -->
     <section class="faq">
         <div class="container mt-36 mb-10">
-            <h1 class="heading-2">
-                Frequently Asked Questions
-            </h1>
+            <!-- FAQ Content -->
+            <div class="flex flex-col">
+                <h1 class="heading-2">
+                    Frequently Asked Questions
+                </h1>
+                <p class="center-paragraph max-w-md place-self-center">
+                    Here are some of our FAQ's. If you have any othe questions that you would like answered, please
+                    feel free to email us.
+                </p>
+            </div>
+            <!-- FAQ Tabs -->
+            <div>
+                <div
+                    class="flex justify-center mt-10 text-sm font-medium text-center text-veryDarkBlue dark:text-gray-400">
+                    <ul class="flex flex-col -mb-px place-self-center w-6/12">
+                        <li class="mr-2 border-t-2">
+                            <a href="#" class="tab-faq w-full flex flex-row justify-between" aria-current="page">
+                                What is Bookmark?
+                                <img class="w-5 h-3 place-self-center" src="/images/icon-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mr-2 border-y-2">
+                            <a href="#" class="tab-faq w-full flex flex-row justify-between" aria-current="page">
+                                How can I request a new browser?
+                                <img class="w-5 h-3 place-self-center" src="/images/icon-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mr-2 border-b-2">
+                            <a href="#" class="tab-faq w-full flex flex-row justify-between" aria-current="page">
+                                Is there a mobile app?
+                                <img class="w-5 h-3 place-self-center" src="/images/icon-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mr-2 border-b-2">
+                            <a href="#" class="tab-faq w-full flex flex-row justify-between" aria-current="page">
+                                What about other chromium browsers?
+                                <img class="w-5 h-3 place-self-center" src="/images/icon-arrow.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
