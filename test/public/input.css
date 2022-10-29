@@ -45,8 +45,12 @@
 }
 
 .heading-2 {
-   @apply text-veryDarkBlue text-2xl sm:text-3xl text-center font-bold drop-shadow-xl tracking-tight
+   @apply text-veryDarkBlue text-xl sm:text-3xl text-center font-bold drop-shadow-xl tracking-tight
 }
+
+.heading-white {
+    @apply text-white text-2xl text-center font-semibold drop-shadow-xl tracking-wide
+ }
 
 .card-heading {
     @apply text-veryDarkBlue text-3xl sm:text-xl text-center font-bold drop-shadow-xl tracking-wide
