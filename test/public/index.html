@@ -82,7 +82,7 @@
             <h1 class="heading-2">
                 Features
             </h1>
-            <p class="center-paragraph">
+            <p class="center-paragraph max-w-lg">
                 Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync
                 between your devices so you can access them
                 on the go.
@@ -287,8 +287,38 @@
                     Stay up-to-date with what we're doing
                 </h1>
             </div>
-
+            <div class="mb-10 flex flex-col sm:flex-row w-11/12 sm:w-2/5">
+                <input type="text"
+                    class="border border-slate-300 rounded-md text-xs text-veryDarkBlue shadow-xl pl-4 pr-24 py-4 sm:py-0"
+                    placeholder="Enter your email address">
+                <div class="w-full">
+                    <button type="button" class="btn-red sm:ml-5 mt-5 sm:mt-0 place-self-center w-full">
+                        Contact Us
+                    </button>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="bg-veryDarkBlue">
+        <nav class="container flex flex-col sm:flex-row items-center py-5 sm:py-0 justify-center sm:justify-between">
+            <!-- Logo -->
+            <div class="shrink-0 flex sm:flex-row flex-col justify-center my-5">
+                <img src="/images/logo-bookmark.svg" class="my-2 fill-softRed" alt="">
+                <!-- Nav Buttons -->
+                <ul class="flex sm:flex-row flex-col shrink sm:ml-5 gap-10 sm:gap-3 items-center uppercase tracking-widest text-xs cursor-pointer font-normal text-white my-5 sm:my-0">
+                    <li class="navbar-items">Features</li>
+                    <li class="navbar-items">Pricing</li>
+                    <li class="navbar-items">Contacts</li>
+                </ul>
+            </div> 
+            <!-- Social Media Logos -->
+            <div class="flex flex-row gap-10 items-center justify-center mb-5 sm:my-0">
+                <object data="/images/icon-facebook.svg" alt=""></object>
+                <object data="/images/icon-twitter.svg" alt=""></object>
+            </div>
+        </nav>
     </section>
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 </body>

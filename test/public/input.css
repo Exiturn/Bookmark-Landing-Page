@@ -16,6 +16,10 @@
     @apply px-9 py-3 bg-softRed text-white tracking-widest uppercase rounded-md drop-shadow-xl hover:bg-white hover:text-softRed hover:outline transition
 }
 
+.btn-red {
+    @apply px-5 py-4 sm:py-3 bg-softRed text-white tracking-wider rounded-md text-xs drop-shadow-xl hover:bg-white hover:text-softRed hover:outline transition font-semibold
+}
+
 .btn-card {
     @apply mt-5 px-7 py-4 sm:py-4 bg-softBlue text-white tracking-wider rounded-md text-xs drop-shadow-xl hover:bg-white hover:text-softBlue hover:outline transition font-semibold
 }
@@ -70,4 +74,16 @@
 
 .card {
     @apply flex flex-col rounded-lg drop-shadow-xl bg-white border-0
+}
+
+.footer-bookmark {
+    filter: opacity(0.5) drop-shadow(0 0 0 white);
+}
+
+.fb-svg {
+    background-image: url(/images/icon-facebook.svg);
+    background-repeat: no-repeat;
+    place-self: center;
+
+    @apply hover:fill-softRed
 }
