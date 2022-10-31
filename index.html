@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" /> -->
+    <title>Document</title>
+</head>
+
+<body class="font-Rubik overflow-x-hidden">
+    <!-- Nav Menu -->
+    <section id="navbar" class="mx-5">
+        <nav class="container flex items-center py-5 mt-5 justify-between">
+            <!-- Logo -->
+            <div class="shrink-0">
+                <img src="/images/logo-bookmark.svg" alt="">
+            </div>
+            <!-- Nav Buttons -->
+            <ul
+                class="hidden sm:flex flex-row shrink gap-10 sm:gap-3 items-center uppercase tracking-widest text-xs cursor-pointer font-semibold text-veryDarkBlue">
+                <li class="navbar-items">Features</li>
+                <li class="navbar-items">Pricing</li>
+                <li class="navbar-items">Contacts</li>
+                <button class="btn-login">
+                    Login
+                </button>
+            </ul>
+            <!-- Menu Icon -->
+            <div class="sm:hidden flex cursor-pointer">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="sm:my-5 sm:mx-2 my-10 mx-2 relative">
+        <!-- Content -->
+        <div class="container flex flex-col-reverse lg:flex-row items-center justify-between mt-7 mx-16">
+            <div class="flex flex-col max-w-md sm:m-0 mt-10 z-10">
+                <h2
+                    class="text-veryDarkBlue text-3xl sm:text-4xl text-center font-bold sm:text-left drop-shadow-xl tracking-tight">
+                    A Simple<a
+                        class="sm:text-white md:text-veryDarkBlue text-3xl sm:text-4xl text-center font-bold sm:text-left drop-shadow-xl tracking-tight">
+                        Bookmark</a> Manager
+                </h2>
+                <p class="left-paragraph">
+                    A clean and simple interface to organize your favourite websites. Open a new browser
+                    tab and see your sites load instantly. Try it for free.
+                </p>
+                <div class="flex flex-row gap-4 mt-4 sm:gap-5 justify-center md:justify-start">
+                    <button class="btn-purple">
+                        Get it on Chrome
+                    </button>
+                    <button class="btn-gray">
+                        Get it on Firefox
+                    </button>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="flex flex-1 justify-center z-10 md:mb-10">
+                <img class="w-5/6 h-5/6 sm:h-3/4 sm:w-3/4 md:w-full md:h-full" src="/images/illustration-hero.svg"
+                    alt="">
+            </div>
+
+        </div>
+        <!-- Rounded Rectangle -->
+        <div class="rounded-rectangle-1"></div>
+    </section>
+
+    <!-- Features Section 
+        TODO: Implement actual content changes with tabs in JS 
+    -->
+    <section class="py-16 mt-5 mx-2 sm:mt-10">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-6/12 container px-2">
+            <h1 class="heading-2">
+                Features
+            </h1>
+            <p class="center-paragraph max-w-lg">
+                Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync
+                between your devices so you can access them
+                on the go.
+            </p>
+        </div>
+        <!-- Features Tab -->
+        <div
+            class="flex justify-center mt-10 text-sm font-medium text-center text-gray-500 border-gray-200 dark:text-gray-400">
+            <ul class="flex flex-col sm:flex-row -mb-px border-b">
+                <li class="mr-2">
+                    <a href="#" class="tab-option-active" aria-current="page">
+                        Simple Bookmarking
+                    </a>
+                </li>
+                <li class="mr-2">
+                    <a href="#" class="tab-option">
+                        Speedy Searching
+                    </a>
+                </li>
+
+                <li class="mr-2">
+                    <a href="#" class="tab-option">
+                        Easy Sharing
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Feature 1 -->
+        <div class="sm:my-5 sm:mx-2 my-10 relative">
+            <!-- Content -->
+            <div class="container flex flex-col lg:flex-row items-center justify-between mt-20 mx-16 gap-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 md:mb-10">
+                    <img class="w-5/6 h-5/6 sm:h-3/4 sm:w-3/4 md:w-full md:h-full"
+                        src="/images/illustration-features-tab-1.svg" alt="">
+                </div>
+                <div class="flex flex-col max-w-md sm:m-0 mt-20 z-10">
+                    <h2 class="heading-2 sm:text-left sm:mt-10">
+                        Bookmark in one click
+                    </h2>
+                    <p class="left-paragraph">
+                        Organize your bookmarks how you like. Our simple drag-and-drop interface gives you complete
+                        control over how you manage your
+                        favourite sites.
+                    </p>
+                    <div class="flex justify-center sm:justify-start">
+                        <button class="btn-purple">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Rounded Rectangle -->
+            <div class="rounded-rectangle-2"></div>
+        </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section id="downloads" class="sm:my-10 sm:mx-2 my-5 relative mx-2">
+        <!-- Content -->
+        <div class="sm:w-3/4 lg:w-6/12 container px-2">
+            <h1 class="heading-2">
+                Download the extension
+            </h1>
+            <p class="center-paragraph">
+                We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us
+                to prioritise.
+            </p>
+        </div>
+        <!-- Download Cards -->
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-16 items-center">
+            <!-- Card 1 -->
+            <div class="card lg:mb-16 w-5/6 sm:w-full place-self-center">
+                <div class="p-6 flex flex-col items-center">
+                    <div class="flex justify-center z-10">
+                        <img src="/images/logo-chrome.svg" alt="">
+                    </div>
+                    <h1 class="card-heading mt-5 mb-2">
+                        Add to Chrome
+                    </h1>
+                    <p class="card-paragraph my-5 mb-2">
+                        Minimum version 62
+                    </p>
+                    <div class="flex justify-center items-center mt-14 border-t-2 border-dashed">
+                        <button type="button" class="btn-card">
+                            Add & Install Extension
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card lg:my-8 w-5/6 sm:w-full place-self-center">
+                <div class="p-6 flex flex-col">
+                    <div class="flex justify-center z-10 ">
+                        <img src="/images/logo-opera.svg" alt="">
+                    </div>
+                    <h1 class="card-heading mt-5 mb-2">
+                        Add to Opera
+                    </h1>
+                    <p class="card-paragraph my-5 mb-2">
+                        Minimum version 42
+                    </p>
+                    <div class="flex justify-center items-center mt-14 border-t-2 border-dashed">
+                        <button type="button" class="btn-card">
+                            Add & Install Extension
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card lg:mt-16 w-5/6 sm:w-full place-self-center">
+                <div class="p-6 flex flex-col items-center">
+                    <div class="flex justify-center z-10">
+                        <img src="/images/logo-firefox.svg" alt="">
+                    </div>
+                    <h1 class="card-heading mt-5 mb-2">
+                        Add to Firefox
+                    </h1>
+                    <p class="card-paragraph my-5 mb-2">
+                        Minimum version 55
+                    </p>
+                    <div class="flex justify-center items-center mt-14 border-t-2 border-dashed">
+                        <button type="button" class="btn-card">
+                            Add & Install Extension
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container mt-36 mb-10">
+            <!-- FAQ Content -->
+            <div class="flex flex-col">
+                <h1 class="heading-2">
+                    Frequently Asked Questions
+                </h1>
+                <p class="center-paragraph max-w-md place-self-center">
+                    Here are some of our FAQ's. If you have any other questions that you would like answered, please
+                    feel free to email us.
+                </p>
+            </div>
+            <!-- FAQ Tabs -->
+            <div>
+                <div
+                    class="flex flex-col justify-center mt-10 text-sm font-medium text-center text-veryDarkBlue dark:text-gray-400">
+                    <ul class="flex flex-col -mb-px place-self-center sm:w-6/12 w-11/12">
+                        <li class="mr-2 border-t-2 tab-faq">
+                            <a href="#" class="w-full flex flex-row justify-between" aria-current="page">
+                                What is Bookmark?
+                                <img class="w-5 h-3 place-self-center" src="/images/icon-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mr-2 border-y-2 tab-faq">
+                            <a href="#" class="w-full flex flex-row justify-between" aria-current="page">
+                                How can I request a new browser?
+                                <img class="w-5 h-3 place-self-center" src="/images/icon-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mr-2 border-b-2 tab-faq">
+                            <a href="#" class="w-full flex flex-row justify-between" aria-current="page">
+                                Is there a mobile app?
+                                <img class="w-5 h-3 place-self-center" src="/images/icon-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mr-2 border-b-2 tab-faq">
+                            <a href="#" class="w-full flex flex-row justify-between" aria-current="page">
+                                What about other chromium browsers?
+                                <img class="w-5 h-3 place-self-center" src="/images/icon-arrow.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="mt-5">
+                        <button class="btn-purple">
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="bg-softBlue text-white">
+        <div class="container flex flex-col mt-36 items-center mx-10">
+            <div class="mt-12 flex flex-row">
+                <h1 class="tracking-normal capitalize text-xs">
+                    3 5 , 0 0 0 +
+                </h1>
+                <h1 class="ml-2 tracking-normal capitalize text-xs">
+                    A L R E A D Y
+                </h1>
+                <h1 class="ml-2 tracking-normal capitalize text-xs">
+                    J O I N E D
+                </h1>
+            </div>
+            <div class="my-5 sm:my-10 mx-5">
+                <h1 class="heading-white max-w-xs">
+                    Stay up-to-date with what we're doing
+                </h1>
+            </div>
+            <div class="mb-10 flex flex-col sm:flex-row w-11/12 sm:w-2/5">
+                <input type="text"
+                    class="border border-slate-300 rounded-md text-xs text-veryDarkBlue shadow-xl pl-4 pr-24 py-4 sm:py-0"
+                    placeholder="Enter your email address">
+                <div class="w-full">
+                    <button type="button" class="btn-red sm:ml-5 mt-5 sm:mt-0 place-self-center w-full">
+                        Contact Us
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="bg-veryDarkBlue">
+        <nav class="container flex flex-col sm:flex-row items-center py-5 sm:py-0 justify-center sm:justify-between">
+            <!-- Logo -->
+            <div class="shrink-0 flex sm:flex-row flex-col justify-center my-5">
+                <img src="/images/logo-bookmark.svg" class="my-2 fill-softRed" alt="">
+                <!-- Nav Buttons -->
+                <ul class="flex sm:flex-row flex-col shrink sm:ml-5 gap-10 sm:gap-3 items-center uppercase tracking-widest text-xs cursor-pointer font-normal text-white my-5 sm:my-0">
+                    <li class="navbar-items">Features</li>
+                    <li class="navbar-items">Pricing</li>
+                    <li class="navbar-items">Contacts</li>
+                </ul>
+            </div> 
+            <!-- Social Media Logos -->
+            <div class="flex flex-row gap-10 items-center justify-center mb-5 sm:my-0">
+                <object data="/images/icon-facebook.svg" alt=""></object>
+                <object data="/images/icon-twitter.svg" alt=""></object>
+            </div>
+        </nav>
+    </section>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+
+</html>
